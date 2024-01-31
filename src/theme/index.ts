@@ -1,0 +1,37 @@
+export const theme = {
+	colors: {
+		primary: '#313853',
+		secondary: '#FAA719',
+		gray: {
+			700: '#838383',
+			600: 'rgba(255, 255, 255, 0.35)',
+			500: '#D0D0D0',
+			400: '#EEEEEE',
+		},
+		backgroundLight: '#F5F2E5',
+		backgroundDark: '#1B2445',
+		black: '#373737',
+		white: '#FFFFFF',
+		danger: '#e84d4d',
+		warning: '#FFC107',
+		info: '#3498DB',
+		success: '#2ECC71',
+	},
+	fonts: {
+		Roboto_700: 'Roboto_700Bold',
+		Roboto_400: 'Roboto_400Regular',
+		Roboto_300: 'Roboto_300Light',
+		Oswald_700: 'Oswald_700Bold',
+		Oswald_400: 'Oswald_400Regular',
+		Oswald_300: 'Oswald_300Light',
+	},
+	size: {
+		xs: 12,
+		sm: 14,
+		md: 16,
+		mdl: 18,
+		lg: 20,
+		xl: 24,
+		xxl: 32,
+	},
+};

@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ToastProvider } from 'react-native-toast-notifications';
+import { AuthProvider } from './src/contexts/authContext';
+import { StatusBar } from 'react-native';
+import { useFonts, Roboto_300Light, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
+import { Oswald_300Light, Oswald_400Regular, Oswald_700Bold } from '@expo-google-fonts/oswald';
+
+import { Loading } from './src/components/Loading';
+
+import Routes from './src/routes';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+	const [fontLoaded] = useFonts({ Roboto_300Light, Roboto_400Regular, Roboto_700Bold, Oswald_300Light, Oswald_400Regular, Oswald_700Bold });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+	if (!fontLoaded) {
+		return <Loading simple />;
+	}
+
+	return (
+		<AuthProvider>
+			<ToastProvider>
+				<StatusBar barStyle='dark-content' translucent={true} backgroundColor='#F5F2E5' />
+				<Routes />
+			</ToastProvider>
+		</AuthProvider>
+	);
+}
