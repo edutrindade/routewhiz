@@ -11,7 +11,7 @@ import { theme } from '../../../theme';
 import { AlertError, AlertInfo } from '../../../components/Alerts';
 import styles from './styles';
 
-const KEY_GPT = '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';
+//const KEY_GPT = process.env.KEY_GPT;
 
 export const Home = () => {
 	const navigation = useNavigation();
