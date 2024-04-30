@@ -30,15 +30,15 @@ Outra possibilidade é ter um emulador instalado em sua máquina. Ao executar o 
 
 Com interfaces simples e amigável, Route Whiz visa auxiliar viajantes pelo mundo a fora.
 
-![SignIn](https://i.ibb.co/Sw6RPqV/Design01.jpg "SignIn") 
+![SignIn](https://i.postimg.cc/wT35Mznh/Design01n.jpg "SignIn") 
 
-![SignUp](https://i.ibb.co/Tcn80zX/Design02.jpg "SignUp") 
+![SignUp](https://i.postimg.cc/HsfMLywg/Design02.jpg "SignUp")
 
-![LoginSocial](https://i.ibb.co/nP0fmKs/Design03.jpg "LoginSocial")
+![LoginSocial](https://i.postimg.cc/xdsMnFgs/Design03.jpg "LoginSocial")
 
-![Slider](https://i.ibb.co/7QL23mC/Design04.jpg "Slider")
+![Slider](https://i.postimg.cc/85jW5B0T/Design04.jpg "Slider")
 
-![Recomendation](https://i.ibb.co/njqkgy6/Design05.jpg "Recomendation")
+![Recomendation](https://i.postimg.cc/WzZkmpVK/Design05.jpg "Recomendation")
 
 O app é bastante intuitivo, possuindo uma estilização global, rotas públicas e privadas definidas pelo uso do React Navigation, login social, autenticação por senha e mais.
 
