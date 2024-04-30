@@ -30,7 +30,7 @@ Outra possibilidade é ter um emulador instalado em sua máquina. Ao executar o 
 
 Com interfaces simples e amigável, Route Whiz visa auxiliar viajantes pelo mundo a fora.
 
-![Login](https://i.ibb.co/Sw6RPqV/Design01.jpg "Login")
+![SignIn](https://i.ibb.co/Sw6RPqV/Design01.jpg "SignIn") 
 
 ![SignUp](https://i.ibb.co/Tcn80zX/Design02.jpg "SignUp") 
 
